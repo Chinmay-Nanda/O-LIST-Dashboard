@@ -7,6 +7,7 @@ The California Sales Report repository showcases a comprehensive Power BI dashbo
 ## 📌 Dashboard Preview
 
 ![California Sales Report Dashboard](dashboard_preview.png)
+<img width="837" height="442" alt="Screenshot 2026-08-20 153618" src="https://github.com/user-attachments/assets/a110729d-4749-43d1-80c7-19ff37ae42b3" />
 
 ---
 

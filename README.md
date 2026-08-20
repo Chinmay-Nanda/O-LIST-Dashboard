@@ -60,19 +60,6 @@ A horizontal bar chart ranking salesperson performance by quantity sold identify
 - Visualized product category distribution for inventory and sales optimization
 - Provided geographic sales breakdown for regional expansion planning
 
----
-
-## 🚀 How to Use
-
-1. Clone or download this repository
-2. Open the `.pbix` file in Power BI Desktop
-3. Refresh data connections if required
-4. Interact with filters on the right panel to drill down by region, product or salesperson
-5. Use the map chart to explore county-level sales distribution
-
----
-
-## 👨‍💻 Author
 
 **Chinmay Nanda**
 B.Tech Information Technology | KIIT University

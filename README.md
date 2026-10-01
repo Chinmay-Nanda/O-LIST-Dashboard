@@ -1,68 +1,62 @@
-# California Sales Report 📊
+# 📊 Olist Sales Report | Power BI Dashboard
 
-The California Sales Report repository showcases a comprehensive Power BI dashboard that provides valuable insights into sales performance across California. This project is designed to present key information and trends to stakeholders, enabling informed decision-making.
+An interactive Power BI dashboard analyzing e-commerce sales on the Olist marketplace: revenue trends, payment behavior, top sellers, product categories, and geographic distribution.
 
----
-
-## 📌 Dashboard Preview
-
-![California Sales Report Dashboard](dashboard_preview.png)
-<img width="837" height="442" alt="Screenshot 2026-08-20 153618" src="https://github.com/user-attachments/assets/a110729d-4749-43d1-80c7-19ff37ae42b3" />
+![Dashboard Preview](images/dashboard.png)
 
 ---
 
-## 🔑 Key Performance Indicators (KPIs)
+## 🎯 Objective
 
-The dashboard prominently displays essential metrics including:
+Turn raw Olist order data into a single-page report that answers:
 
-- **Total Revenue:** $40.08K
-- **Total Sales:** $25.66M
-
-These KPIs provide an instant snapshot of California's overall sales performance across all regions and product categories.
-
----
-
-## ✅ Key Features
-
-### 📦 Total Sales by Product Name
-A detailed bar chart visualizing sales performance across all product categories enabling quick identification of top performing and underperforming products.
-
-### 📅 Total Sales by Year
-A column chart illustrating year-over-year sales trends from 2015 to 2017 highlighting growth patterns and seasonal fluctuations across the California region.
-
-### 🗺️ Sum of Price by County
-An interactive map chart providing a geographic perspective on sales distribution across California counties including Sacramento, San Francisco, Fresno, San Jose, Los Angeles and San Diego enabling stakeholders to identify regional strengths and expansion opportunities.
-
-### 🍩 Sales by Product (Doughnut Chart)
-An interactive doughnut chart depicting distribution of sales across product categories including Product 4F, Product 75, Product B2, Product B5 and Product Base providing insights into product mix and category performance.
-
-### 👤 Sum of Quantity by Salesperson Name
-A horizontal bar chart ranking salesperson performance by quantity sold identifying top contributors including Kenneth Bradley, Ryan Wicker, Patrick Ruhr, Bobby Russell, Eugene Holmes and others enabling targeted sales strategy and performance management.
+- How is revenue changing over time?
+- Which payment methods do customers prefer?
+- Who are the top-performing sellers?
+- Which product categories drive the most revenue?
+- Which regions generate the most sales?
 
 ---
 
-## 🛠️ Tools Used
+## 📁 Dataset
 
-| Tool | Purpose |
-|------|---------|
-| Power BI | Dashboard development and visualization |
-| DAX | KPI calculations and measures |
-| Power Query | Data transformation and cleaning |
-| Excel | Data source and preprocessing |
-| Map Integration | Geographic sales visualization |
+- **Source:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle)
+- **Tables used:** orders, order items, payments, products, customers, sellers, geolocation, [add any others]
+- **Period covered:** 2016–2018
 
 ---
 
-## 📈 Business Insights
+## 📈 Dashboard Overview
 
-- Identified top performing counties contributing majority of California sales revenue
-- Tracked year-over-year sales growth from 2015 to 2017
-- Ranked salesperson performance enabling targeted coaching and strategy
-- Visualized product category distribution for inventory and sales optimization
-- Provided geographic sales breakdown for regional expansion planning
+| Visual | What it shows |
+|---|---|
+| **KPI cards** | [e.g., Total Orders, Total Revenue, Avg Review Score, ...] |
+| **Monthly revenue over time** | Revenue trend across 2017–2018 |
+| **Sum of price by payment type** | Share of credit card, boleto, voucher, and other payments |
+| **Top 15 sellers by items sold** | Best-performing sellers ranked by volume |
+| **Revenue distribution over states** | Map of revenue by customer state |
+| **Revenue by product category** | Highest-earning product categories |
 
+---
 
-**Chinmay Nanda**
-B.Tech Information Technology | KIIT University
-📧 chinunanda345@gmail.com
-🔗 [GitHub](https://github.com/Chinmay-Nanda)
+## 🔍 Key Insights
+
+> Replace these with your real findings.
+
+- [e.g., Revenue peaked in Nov 2017, likely driven by Black Friday]
+- [e.g., Credit card accounts for ~X% of payment value]
+- [e.g., Top category is ___, contributing X% of revenue]
+- [e.g., Sales are concentrated in São Paulo and nearby states]
+
+---
+
+## 🛠️ Tools & Skills
+
+- **Power BI Desktop**
+- **Power Query**: data cleaning and transformation
+- **Data modeling**: relationships across fact and dimension tables
+- **DAX**: measures for [revenue, order count, average review score, ...]
+- **Dashboard design**: custom background, layout, and formatting
+
+---
+
